@@ -274,6 +274,21 @@
       }
     },
     {
+      "currentVersion":"0.0.1",
+      "description":"Apache Myriad (incubating) running on top of Apache Mesos",
+      "framework":true,
+      "name":"myriad",
+      "selected":true,
+      "tags":[
+        "hadoop",
+        "yarn",
+        "myriad"
+      ],
+      "versions":{
+        "0.0.1":"0",
+      }
+    },
+    {
       "currentVersion":"0.0.0-0.1",
       "description":"Your private path to access network resources and services securely: Server service",
       "framework":false,
