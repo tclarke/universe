@@ -400,6 +400,46 @@
       }
     },
     {
+      "currentVersion":"0.13.1",
+      "description":"Monitoring, visualisation & management for Docker",
+      "framework":false,
+      "name":"weavescope",
+      "selected":false,
+      "tags":[
+        "mesosphere",
+        "monitoring",
+        "marathon",
+        "docker",
+        "microservices",
+        "control",
+        "visualisation",
+        "development"
+      ],
+      "versions":{
+        "0.13.1":"0"
+      }
+    },
+    {
+      "currentVersion":"0.13.1",
+      "description":"**Monitoring, visualisation & management for Docker**\n\nThis package only provides Scope probe, you will aslo need to install `weavescope` package which provides the UI app.",
+      "framework":false,
+      "name":"weavescope-probe",
+      "selected":false,
+      "tags":[
+        "mesosphere",
+        "monitoring",
+        "marathon",
+        "docker",
+        "microservices",
+        "control",
+        "visualisation",
+        "development"
+      ],
+      "versions":{
+        "0.13.1":"0"
+      }
+    },
+    {
       "currentVersion":"0.5.6",
       "description":"Zeppelin is a web-based notebook that enables interactive data analytics",
       "framework":true,

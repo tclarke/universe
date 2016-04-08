@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "description": "Properties of Weave Scope package",
+  "properties": {
+    "weavescope": {
+      "type": "object",
+      "description": "Weave Scope consists of two components - the probe for collecting container host metrics and the app for UI (this package provides the app)",
+      "properties": {
+        "app": {
+          "type": "object",
+          "properties": {
+            "instances": {
+              "type": "integer",
+              "description": "Number of Scope app instances to deploy",
+              "default": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

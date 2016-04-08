@@ -1,0 +1,11 @@
+{
+  "packagingVersion": "2.0",
+  "name": "weavescope-probe",
+  "version": "0.13.1",
+  "tags": ["mesosphere", "monitoring", "marathon", "docker", "microservices", "control", "visualisation", "development"],
+  "maintainer": "help@weave.works",
+  "description": "**Monitoring, visualisation & management for Docker**\n\nThis package only provides Scope probe, you will aslo need to install `weavescope` package which provides the UI app.",
+  "scm": "https://github.com/weaveworks/scope",
+  "website": "http://weave.works/scope",
+  "postInstallNotes": "Have fun monitoring, visualising and managing you containers with Weave Scope!\n\nYou still need to isntall the `weavescope` package and scale the probes to number of slaves you have in your cluster."
+}

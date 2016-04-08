@@ -1,0 +1,19 @@
+{
+  "images": {
+    "icon-small": "https://raw.githubusercontent.com/errordeveloper/universe/version-2.x/repo/packages/W/weavescope/0/weave-logo-transparent-small.png",
+    "icon-medium": "https://raw.githubusercontent.com/errordeveloper/universe/version-2.x/repo/packages/W/weavescope/0/weave-logo-transparent-medium.png",
+    "icon-large": "https://raw.githubusercontent.com/errordeveloper/universe/version-2.x/repo/packages/W/weavescope/0/weave-logo-transparent-large.png",
+    "screenshots": [
+      "https://www.weave.works/wp-content/uploads/Topology-wpcf_1024x592.png",
+      "https://www.weave.works/wp-content/uploads/Selected-Node-wpcf_1024x592.png",
+      "https://www.weave.works/wp-content/uploads/Terminals-wpcf_1024x592.png"
+    ]
+  },
+  "assets": {
+    "container": {
+      "docker": {
+        "da188a722491": "weaveworks/scope:0.13.1"
+      }
+    }
+  }
+}

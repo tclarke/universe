@@ -1,0 +1,77 @@
+{
+  "id": "/weavescope",
+  "groups": [
+    {
+      "id": "/weavescope/probes",
+      "apps": [
+        {
+          "id": "/weavescope/probe",
+          "cpus": 1,
+          "mem": 128,
+          "instances": {{weavescope.probe.instances}},
+          "constraints": [
+            [
+              "hostname",
+              "UNIQUE"
+            ]
+          ],
+          "container": {
+            "type": "DOCKER",
+            "volumes": [
+              {
+                "containerPath": "/var/run/docker.sock",
+                "hostPath": "/var/run/docker.sock",
+                "mode": "RW"
+              }
+            ],
+            "docker": {
+              "image": "{{resource.assets.container.docker.da188a722491}}",
+              "network": "HOST",
+              "privileged": true,
+              "parameters": [
+                {
+                  "key": "pid",
+                  "value": "host"
+                }
+              ],
+              "forcePullImage": false
+            }
+          },
+          "args": [
+            "--no-app",
+            "--probe.docker=true",
+            "app-weavescope.marathon.mesos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/weavescope/apps",
+      "apps": [
+        {
+          "id": "/weavescope/app",
+          "cpus": 2,
+          "mem": 128,
+          "instances": {{weavescope.app.instances}},
+          "container": {
+            "type": "DOCKER",
+            "docker": {
+              "image": "{{resource.assets.container.docker.da188a722491}}",
+              "forcePullImage": false
+            }
+          },
+          "portDefinitions": [
+            {
+              "port": 4040,
+              "protocol": "tcp",
+              "name": "weavescope-app"
+            }
+          ],
+          "args": [
+            "--no-probe"
+          ]
+        }
+      ]
+    }
+  ]
+}
