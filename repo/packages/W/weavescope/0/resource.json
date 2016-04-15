@@ -12,7 +12,7 @@
   "assets": {
     "container": {
       "docker": {
-        "da188a722491": "weaveworks/scope:0.13.1"
+        "e2b69668d4e5": "weaveworks/scope:v0.13.1-309-gaa99f56"
       }
     }
   }
