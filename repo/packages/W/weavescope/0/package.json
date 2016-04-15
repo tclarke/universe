@@ -4,8 +4,8 @@
   "version": "0.13.1",
   "tags": ["mesosphere", "monitoring", "marathon", "docker", "microservices", "control", "visualisation", "development"],
   "maintainer": "help@weave.works",
-  "description": "Monitoring, visualisation & management for Docker",
+  "description": "**Live visualisation, monitoring and management**\n\nWeave Scope produces a live interactive map of your containerized services and applications with no coding and no instrumentation",
   "scm": "https://github.com/weaveworks/scope",
   "website": "http://weave.works/scope",
-  "postInstallNotes": "Have fun monitoring, visualising and managing you containers with Weave Scope!"
+  "postInstallNotes": "You can access Weave Scope at `https://<DnsAddress>/service/weavescope/`.\nHave fun monitoring, visualising and managing you containers with Weave Scope!"
 }

@@ -401,7 +401,7 @@
     },
     {
       "currentVersion":"0.13.1",
-      "description":"Monitoring, visualisation & management for Docker",
+      "description":"**Live visualisation, monitoring and management**\n\nWeave Scope produces a live interactive map of your containerized services and applications with no coding and no instrumentation",
       "framework":false,
       "name":"weavescope",
       "selected":false,
@@ -421,7 +421,7 @@
     },
     {
       "currentVersion":"0.13.1",
-      "description":"**Monitoring, visualisation & management for Docker**\n\nThis package only provides Scope probe, you will aslo need to install `weavescope` package which provides the UI app.",
+      "description":"**Live visualisation, monitoring and management**\n\nWeave Scope produces a live interactive map of your containerized services and applications with no coding and no instrumentation",
       "framework":false,
       "name":"weavescope-probe",
       "selected":false,
