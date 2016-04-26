@@ -5,12 +5,16 @@
         "type": "DOCKER",
         "docker": {
             "image": "droessne/dcos-scale:latest",
-            "network": "HOST"
+            "network": "BRIDGE",
+            "portMappings": [
+                { "containerPort": 80, "hostPort": 0, "servicePort": 13069, "protocol": "tcp" }
+            ]
         }
     },
     "healthChecks": [{
         "path": "/",
-        "protocol": "HTTP"
+        "protocol": "HTTP",
+        "portIndex": 0
     }],
     "labels":{
         "HAPROXY_GROUP":"external"
