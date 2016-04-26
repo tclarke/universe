@@ -1,0 +1,17 @@
+{
+    "id": "/scale-db",
+    "instances": 1,
+    "container": {
+        "type": "DOCKER",
+        "docker": {
+            "image": "droessne/dcos-scale-db:latest",
+            "network": "HOST"
+        }
+    },
+    "labels":{
+        "HAPROXY_GROUP":"external"
+    },
+    "ports": [0],
+    "cpus": 2,
+    "mem": 1024
+}

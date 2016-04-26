@@ -1,0 +1,18 @@
+{
+    "id": "/scale",
+    "instances": 1,
+    "container": {
+        "type": "DOCKER",
+        "docker": {
+            "image": "droessne/dcos-scale:latest",
+            "network": "HOST"
+        }
+    },
+    "healthChecks": [{
+        "protocol": "HTTP",
+        "portIndex": 0
+    }],
+    "ports": [0],
+    "cpus": 1.0,
+    "mem": 1024.0
+}
