@@ -5,10 +5,7 @@
         "type": "DOCKER",
         "docker": {
             "image": "droessne/dcos-scale:latest",
-            "network": "BRIDGE",
-            "portMappings": [
-                { "containerPort": 80, "hostPort": 0, "servicePort": 13069, "protocol": "tcp" }
-            ]
+            "network": "HOST"
         }
     },
     "healthChecks": [{
