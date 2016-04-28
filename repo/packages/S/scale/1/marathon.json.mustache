@@ -21,6 +21,12 @@
         "maxConsecutiveFailures": 3,
         "ignoreHttp1xx": false
     }],
+    "labels":{
+      "HAPROXY_GROUP":"external",
+      "HAPROXY_0_VHOST":"{{scale.vhost-name}}",
+      "DCOS_PACKAGE_IS_FRAMEWORK": true,
+      "DCOS_PACKAGE_FRAMEWORK_NAME": "{{scale.framework-name}}"
+    },
     "env": {
       "SCALE_DB_NAME": "{{scale.db-name}}",
       "SCALE_DB_USER": "{{scale.db-user}}",
@@ -41,11 +47,5 @@
       "NFS_POSTGRES_GID": "{{scale.nfs-postgres-gid}}",
       "DB_DOCKER_IMAGE": "{{resource.assets.container.docker.95bf00b63afb}}",
       "SCALE_DB_HOST_VOL": "{{scale.db-host-vol}}"
-    },
-    "labels":{
-        "HAPROXY_GROUP":"external",
-        "HAPROXY_0_VHOST":"{{scale.vhost-name}}",
-        "DCOS_PACKAGE_IS_FRAMEWORK": true,
-        "DCOS_PACKAGE_FRAMEWORK_NAME": "{{scale.framework-name}}"
     }
 }
