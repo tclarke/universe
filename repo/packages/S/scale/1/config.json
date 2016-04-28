@@ -87,6 +87,11 @@
           "description": "GID of network postgres user",
           "default": "26"
         },
+        "marathon-lb-port": {
+          "type": "integer",
+          "description": "Marathon LoadBalancer port for Scale Web GUI",
+          "default": 8008
+        },
         "db-host-vol": {
           "type": "string",
           "description": "Path to persistent storage",
