@@ -22,10 +22,9 @@
         "ignoreHttp1xx": false
     }],
     "labels":{
+      "DCOS_PACKAGE_FRAMEWORK_NAME": "{{scale.framework-name}}",
       "HAPROXY_GROUP":"external",
-      "HAPROXY_0_VHOST":"{{scale.vhost-name}}",
-      "DCOS_PACKAGE_IS_FRAMEWORK": true,
-      "DCOS_PACKAGE_FRAMEWORK_NAME": "{{scale.framework-name}}"
+      "HAPROXY_0_VHOST":"{{scale.vhost-name}}"
     },
     "env": {
       "SCALE_DB_NAME": "{{scale.db-name}}",
