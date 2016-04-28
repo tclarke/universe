@@ -8,8 +8,8 @@
     }
   },
   "images": {
-    "icon-small": "https://raw.githubusercontent.com/ngageoint/scale/master/scale-ui/app/images/scale3-lightbg-48.png",
-    "icon-medium": "https://raw.githubusercontent.com/ngageoint/scale/master/scale-ui/app/images/scale3-lightbg-64.png",
-    "icon-large": "https://raw.githubusercontent.com/ngageoint/scale/master/scale-ui/app/images/scale3-lightbg-200.png"
+    "icon-small": "https://raw.githubusercontent.com/ngageoint/scale/static-data/scale-ui/app/images/icon-service-scale-small.png",
+    "icon-medium": "https://raw.githubusercontent.com/ngageoint/scale/static-data/scale-ui/app/images/icon-service-scale-medium.png",
+    "icon-large": "https://raw.githubusercontent.com/ngageoint/scale/static-data/scale-ui/app/images/icon-service-scale-large.png"
   }
 }
