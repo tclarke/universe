@@ -4,8 +4,9 @@
     "container": {
         "type": "DOCKER",
         "docker": {
-            "image": "droessne/dcos-scale:0.1",
-            "network": "HOST"
+            "image": "droessne/dcos-scale:latest",
+            "network": "HOST",
+            portMappings
         }
     },
     "healthChecks": [{
@@ -14,8 +15,7 @@
         "port": 80
     }],
     "labels":{
-        "HAPROXY_GROUP":"external",
-        "HAPROXY_0_VHOST": "dcos-2016-PublicSl-11YK26BPYL83U-1833832105.us-east-1.elb.amazonaws.com"
+        "HAPROXY_GROUP":"external"
     },
     "cpus": 1.0,
     "mem": 1024.0

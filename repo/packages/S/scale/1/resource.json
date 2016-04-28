@@ -1,0 +1,15 @@
+{
+  "assets": {
+    "container": {
+      "docker": {
+        "b69f1309e850": "docker.io/droessne/dcos-scale:latest",
+        "95bf00b63afb": "docker.io/droessne/dcos-scale-db:latest"
+      }
+    }
+  },
+  "images": {
+    "icon-small": "https://raw.githubusercontent.com/ngageoint/scale/master/scale-ui/app/images/scale3-lightbg-48.png",
+    "icon-medium": "https://raw.githubusercontent.com/ngageoint/scale/master/scale-ui/app/images/scale3-lightbg-64.png",
+    "icon-large": "https://raw.githubusercontent.com/ngageoint/scale/master/scale-ui/app/images/scale3-lightbg-200.png"
+  }
+}
