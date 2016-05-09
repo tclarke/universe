@@ -95,7 +95,7 @@
         "db-host-vol": {
           "type": "string",
           "description": "Path to persistent storage",
-          "default": ""
+          "default": "/shared/dcos-scale-db"
         },
         "vhost-name": {
           "type": "string",
