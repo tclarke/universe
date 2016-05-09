@@ -11,12 +11,7 @@
             "forcePullImage": true
         }
     },
-    "constraints": [
-      [
-        "hostname",
-        "UNIQUE"
-      ]
-    ],
+    "constraints": [["hostname", "UNIQUE"]],
     "healthChecks": [{
         "path": "/ui/api/status/",
         "protocol": "HTTP",
