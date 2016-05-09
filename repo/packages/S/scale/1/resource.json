@@ -2,8 +2,8 @@
   "assets": {
     "container": {
       "docker": {
-        "6b6ffe9f65ab": "docker.io/dickmancj/dcos-scale:latest",
-        "b8421b59392b": "docker.io/dickmancj/dcos-scale-db:latest"
+        "df8e2866a61f": "docker.io/dickmancj/dcos-scale:latest",
+        "53e3217a35d4": "docker.io/dickmancj/dcos-scale-db:latest"
       }
     }
   },
