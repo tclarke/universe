@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "container": {
+      "docker": {
+         "b69f1309e850": "docker.io/droessne/dcos-scale:054b73b2239b59ba7fe23e892f77f390ed5a6dd2",
+         "95bf00b63afb": "docker.io/droessne/dcos-scale-db:latest",
+         "cc8ed524d23b": "docker.io/droessne/scale:054b73b2239b59ba7fe23e892f77f390ed5a6dd2"
+      }
+    }
+  },
+  "images": {
+    "icon-small": "https://raw.githubusercontent.com/ngageoint/scale/gh-pages/demo/images/icon-service-scale-small.png",
+    "icon-medium": "https://raw.githubusercontent.com/ngageoint/scale/gh-pages/demo/images/icon-service-scale-medium.png",
+    "icon-large": "https://raw.githubusercontent.com/ngageoint/scale/gh-pages/demo/images/icon-service-scale-large.png"
+  }
+}
