@@ -2,13 +2,14 @@
   "assets": {
     "container": {
       "docker": {
-        "b96e4b2c3ecf": "docker.io/droessne/scale:latest"
+         "95bf00b63afb": "docker.io/mdillon/postgis",
+         "cc8ed524d23b": "docker.io/geoint/scale"
       }
     }
   },
   "images": {
-    "icon-small": "https://downloads.mesosphere.com/chronos/assets/icon-service-chronos-small.png",
-    "icon-medium": "https://downloads.mesosphere.com/chronos/assets/icon-service-chronos-medium.png",
-    "icon-large": "https://downloads.mesosphere.com/chronos/assets/icon-service-chronos-large.png"
+    "icon-small": "https://raw.githubusercontent.com/ngageoint/scale/gh-pages/demo/images/icon-service-scale-small.png",
+    "icon-medium": "https://raw.githubusercontent.com/ngageoint/scale/gh-pages/demo/images/icon-service-scale-medium.png",
+    "icon-large": "https://raw.githubusercontent.com/ngageoint/scale/gh-pages/demo/images/icon-service-scale-large.png"
   }
 }
