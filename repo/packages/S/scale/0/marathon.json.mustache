@@ -1,0 +1,22 @@
+{
+    "id": "/scale",
+    "instances": 1,
+    "container": {
+        "type": "DOCKER",
+        "docker": {
+            "image": "droessne/dcos-scale:latest",
+            "network": "HOST",
+            portMappings
+        }
+    },
+    "healthChecks": [{
+        "path": "/",
+        "protocol": "HTTP",
+        "port": 80
+    }],
+    "labels":{
+        "HAPROXY_GROUP":"external"
+    },
+    "cpus": 1.0,
+    "mem": 1024.0
+}
