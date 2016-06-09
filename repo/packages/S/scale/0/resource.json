@@ -3,7 +3,7 @@
     "container": {
       "docker": {
          "d61bbba2064f": "docker.io/mdillon/postgis",
-         "2b5466e3249c": "docker.io/geoint/scale"
+         "2b5466e3249c": "devdocker-reg.devnet.prv:5000/geoint/scale"
       }
     }
   },
