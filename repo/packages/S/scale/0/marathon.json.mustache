@@ -54,5 +54,8 @@
       "NFS_POSTGRES_GID": "{{scale.nfs-postgres-gid}}",
       "DB_DOCKER_IMAGE": "{{resource.assets.container.docker.d61bbba2064f}}",
       "SCALE_DB_HOST_VOL": "{{scale.db-host-vol}}"
-    }
+    },
+    "args": [
+    "scale_scheduler"
+    ]
 }
