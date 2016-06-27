@@ -6,7 +6,7 @@
     "container": {
         "type": "DOCKER",
         "docker": {
-            "image": "{{resource.assets.container.docker.b69f1309e850}}",
+            "image": "{{resource.assets.container.docker.832d5c8801cd}}",
             "network": "HOST",
             "forcePullImage": true
         }
@@ -41,7 +41,7 @@
       "SCALE_API_URL": "/ui/api",
       "SCALE_STATIC_URL": "/service/{{scale.framework-name}}/ui/static/",
       "SCALE_STATIC_ROOT": "static/",
-      "SCALE_DOCKER_IMAGE": "{{resource.assets.container.docker.cc8ed524d23b}}",
+      "SCALE_DOCKER_IMAGE": "{{resource.assets.container.docker.832d5c8801cd}}",
       {{#scale.zk-url-enable}}
       "SCALE_ZK_URL": "{{scale.zk-url}}",
       {{/scale.zk-url-enable}}

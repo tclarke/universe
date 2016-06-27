@@ -2,9 +2,8 @@
   "assets": {
     "container": {
       "docker": {
-         "b69f1309e850": "docker.io/droessne/dcos-scale:054b73b2239b59ba7fe23e892f77f390ed5a6dd2",
-         "95bf00b63afb": "docker.io/droessne/dcos-scale-db:latest",
-         "cc8ed524d23b": "docker.io/droessne/scale"
+         "832d5c8801cd": "docker.io/geoint/scale:3.0.0-snapshot",
+         "95bf00b63afb": "docker.io/droessne/dcos-scale-db:latest"
       }
     }
   },
