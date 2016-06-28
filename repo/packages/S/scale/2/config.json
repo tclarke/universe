@@ -52,6 +52,11 @@
           "description": "Deploy the dockerized postgres DB (true or false). Must supply db-host, db-user, db-pass, and db-port",
           "default": "true"
         },
+        "init-db": {
+          "type": "string",
+          "description": "Initialize the postgres DB (true or false). Must supply db-host, db-user, db-pass, and db-port",
+          "default": "true"
+        },
         "nfs-postgres-uid": {
           "type": "string",
           "description": "UID of network postgres user",
