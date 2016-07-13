@@ -447,7 +447,7 @@
       }
     },
     {
-      "currentVersion":"3.0.0",
+      "currentVersion":"3.1.0",
       "description":"Scale enables on-demand, near real-time, automated processing of large datasets (satellite, medical, audio, video, ...) using a dynamic bank of algorithms. Algorithm execution is seamlessly distributed across thousands of CPU cores. Docker provides algorithm containerization. Apache Mesos enables optimum resource utilization.",
       "framework":true,
       "name":"scale",
@@ -461,7 +461,8 @@
         "geospatial"
       ],
       "versions":{
-        "3.0.0":"2"
+        "3.0.0":"2",
+        "3.1.0":"4"
       }
     },
     {

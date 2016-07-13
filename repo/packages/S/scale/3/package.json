@@ -13,7 +13,7 @@
     "geospatial"
   ],
   "framework": true,
-  "version": "3.0.0",
+  "version": "3.1.0",
   "postUninstallNotes": "The Scale DCOS Service has been uninstalled and will no longer run.",
   "preInstallNotes": "We recommend a minimum of three nodes with at least 2 CPU and 2GB of RAM available for the Scale Service and running Scale jobs.",
   "licenses": [
