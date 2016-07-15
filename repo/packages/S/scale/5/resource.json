@@ -2,7 +2,7 @@
   "assets": {
     "container": {
       "docker": {
-         "09491e709d05": "docker.io/geoint/scale:3.1.0-snapshot",
+         "6703c0637c20": "docker.io/geoint/scale:3.1.0-snapshot",
          "95bf00b63afb": "docker.io/mdillon/postgis:latest"
       }
     }
