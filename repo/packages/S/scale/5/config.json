@@ -57,6 +57,11 @@
           "description": "Initialize the postgres DB (true or false). Must supply db-host, db-user, db-pass, and db-port",
           "default": "true"
         },
+        "load-country-data": {
+          "type": "string",
+          "description": "Load defauly country borders into the database.",
+          "default": "true"
+        },
         "nfs-postgres-uid": {
           "type": "string",
           "description": "UID of network postgres user",

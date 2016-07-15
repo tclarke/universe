@@ -6,7 +6,7 @@
     "container": {
         "type": "DOCKER",
         "docker": {
-            "image": "{{resource.assets.container.docker.2fee73228109}}",
+            "image": "{{resource.assets.container.docker.09491e709d05}}",
             "network": "HOST",
             "forcePullImage": true
         }
@@ -50,6 +50,7 @@
       {{/scale.zk-url-enable}}
       "DEPLOY_DB": "{{scale.deploy-db}}",
       "INIT_DB": "{{scale.init-db}}",
+      "LOAD_COUNTRY_DATA": "{{scale.load-country-data}}",
       "NFS_POSTGRES_UID": "{{scale.nfs-postgres-uid}}",
       "NFS_POSTGRES_GID": "{{scale.nfs-postgres-gid}}",
       "DB_DOCKER_IMAGE": "{{resource.assets.container.docker.95bf00b63afb}}",
