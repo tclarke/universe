@@ -1,0 +1,7 @@
+{
+	"logstash": {
+		"executor" : {
+			"volumes" : "/var/log/mesos"
+		}
+	}
+}

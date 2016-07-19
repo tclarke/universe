@@ -258,6 +258,21 @@
       }
     },
     {
+      "currentVersion":"0.10-RC1",
+      "description":"Logstash framwork for Mesos.",
+      "framework":false,
+      "name":"logstash",
+      "selected":false,
+      "tags":[
+        "logstash",
+        "elk",
+        "logging"
+      ],
+      "versions":{
+        "0.10-RC1":"0"
+      }
+    },
+    {
       "currentVersion":"1.1.1",
       "description":"A container orchestration platform for Mesos and DCOS.",
       "framework":true,
