@@ -52,6 +52,11 @@
           "description": "Deploy the dockerized postgres DB (true or false). Must supply db-host, db-user, db-pass, and db-port",
           "default": "true"
         },
+        "deploy-logging": {
+          "type": "string",
+          "description": "Deploy the dockerized logstash process (true or false). Elasticsearch must already be running via marathon. Marathon will be queried for the elasticsearch addresses.",
+          "default": "true"
+        },
         "init-db": {
           "type": "string",
           "description": "Initialize the postgres DB (true or false). Must supply db-host, db-user, db-pass, and db-port",
@@ -65,7 +70,7 @@
         "logstash-address": {
           "type": "string",
           "description": "Address for logstash service.",
-          "default": "udp://logstash.marathon.mesos:12201"
+          "default": ""
         },
         "nfs-postgres-uid": {
           "type": "string",
